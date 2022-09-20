@@ -22,8 +22,8 @@ public class Main {
         var totalEmployees = totalWork / worker1;
         System.out.println("Всего работников в компании– " + totalEmployees + " человек");
         var TotalEmployees = totalEmployees + 94;
-        var jobsForOne = totalWork * worker1;
-        System.out.println("Если в компании работает " + TotalEmployees + " человека, то всего " +jobsForOne + " часа работы может быть поделено между сотрудниками");
+        var totalWorkingOne = TotalEmployees * worker1;
+        System.out.println("Если в компании работает " + TotalEmployees + " человека, то всего " +totalWorkingOne + " часа работы может быть поделено между сотрудниками");
 
 
 
